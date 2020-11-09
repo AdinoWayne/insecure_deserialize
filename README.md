@@ -13,7 +13,12 @@ Create the ultimate development environment
 	$ cd docker-compose-php
 	$ docker-compose build
 	$ docker-compose up -d
+	go to docker-compose-php_nginx-proxy_1
 
 # Test
 
 Open url http://localhost and you will see a phpinfo page
+
+# Reference
+https://github.com/andybeak/unserialize-example
+https://github.com/raadfhaddad/Insecure-Deserialization/tree/master/Challenge
