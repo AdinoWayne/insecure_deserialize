@@ -7,10 +7,6 @@ to the docker daemon.
 
 Create the ultimate development environment
 
-# Install
-
-Install docker and [docker-compose](https://docs.docker.com/compose/install/)
-
 # Run
 	
 	$ git clone https://github.com/devigner/docker-compose-php.git
@@ -21,9 +17,3 @@ Install docker and [docker-compose](https://docs.docker.com/compose/install/)
 # Test
 
 Open url http://localhost and you will see a phpinfo page
-
-# http/2
-
-Copy .env.dist to .env and fill in the obvious information 
-
-Open url https://example.com and you will see a phpinfo page running in http/2
