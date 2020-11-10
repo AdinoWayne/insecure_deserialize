@@ -1,0 +1,20 @@
+{
+    "name": "example/example",
+    "description": "An example of insecure deserialization in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "example",
+            "email": "example@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "UnserializeDemo\\":"src/"
+        }
+    }
+}
