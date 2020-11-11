@@ -8,8 +8,6 @@ to the docker daemon.
 Create the ultimate development environment
 
 # Run
-	
-	$ git clone https://github.com/devigner/docker-compose-php.git
 	$ cd docker-compose-php
 	$ docker-compose build
 	$ docker-compose up -d
@@ -20,5 +18,4 @@ Create the ultimate development environment
 Open url http://localhost and you will see a phpinfo page
 
 # Reference
-https://github.com/andybeak/unserialize-example
-https://github.com/raadfhaddad/Insecure-Deserialization/tree/master/Challenge
+https://jagskap.blogspot.com/2019/07/insecure-deserialization-in-php.html
