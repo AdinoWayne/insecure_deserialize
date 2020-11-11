@@ -10,7 +10,8 @@
 // Điều này không chỉ khiến bộ nhớ cache của bạn không bao giờ được làm mới đúng cách (và do đó là lỗi), mà còn là một lỗ hổng bảo mật vì nó cho phép kẻ tấn công ghi nội dung tùy ý vào tệp lưu trữ bộ nhớ cache.
 
 
-require('runfif/index.php');
-// require('runt/data.php');
-// require('runt/data.php');
+// require('runs/gerenal.php');
+// URL r= "O:18:"PHPObjectInjection":1:{s:6:"inject";s:17:"system('whoami');";}"
+// URL r= "a:2:{i:0;s:4:"XVWA";i:1;s:33:"Xtreme Vulnerable Web Application";}"
+
 
