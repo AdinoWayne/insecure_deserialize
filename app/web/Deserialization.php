@@ -13,7 +13,7 @@ class App
  
     public function __destruct()
     {
-       if (file_put_contents(__DIR__ . '/'. $this->logFile, $this->logData));
+       if (file_put_contents(__DIR__ . '/logs/'. $this->logFile, $this->logData));
         echo '[+] Logs written to log file.<br>';
     }
 }
